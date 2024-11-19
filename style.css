@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: "brittany";
+    src: url(./font/BrittanySignature.ttf);
+}
+
+@font-face {
+    font-family: "sens";
+    src: url(./font/Akira\ Expanded\ Demo.otf);
+}
+
+@font-face {
+    font-family: "poppins-10";
+    src: url(./font/BrittanySignature.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: linear-gradient(rgba(9, 2, 2, 0.7), rgba(0, 0, 0, 0.5)), url(freepik__candid-image-photography-natural-textures-highly-r__92415[1].jpeg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: "poppins";
+}
+
+.anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    margin-left: 200px;
+
+}
+
+.name {
+    width: 240px;
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.btn-1 {
+    width: 130px;
+    height: 43px;
+    font-size: 20px;
+    margin-left: 8px;
+    border-radius: 9px;
+    border: none;
+ background-color: #00cccc;
+}
+.btn-1:hover{
+    background: linear-gradient(#00cccc, #fcd700);
+}
+
+
+.all {
+    margin-left: 49px;
+
+}
+
+.company {
+    color: white;
+    font-family: "poppins";
+    font-weight: 00;
+    letter-spacing: 1px;
+    font-size: 49px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.jawan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.azan{
+    width: 649px;
+ height: 360px;
+margin-left: 20px;
+ margin-top: 79px;
+ border-radius: 30px;
+}
+.hello{
+  margin-top: 49px;
+}
+h2{
+    color: white;
+    font-size: 49px;
+    margin-top: 40px;
+    margin-left:40px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.place{
+    display: flex;
+}
+.olo{
+    color: white;
+    margin-left: 38px;
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: "poppins";
+}
+.mona{
+    color: white;
+    margin-left: 38px;
+    font: 27px;
+    font-family: "poppins";
+}
+.mona-10{
+    color: white;
+    margin-left: 38px;
+    font-size: 18px;
+    font-family: "poppins";
+}
+.btn-10{
+    width: 139px;
+    height: 49px;
+    font-size: 20px;
+    margin-left: 38px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    background-color: #00cccc;
+   
+}
+.btn-10:hover{
+    background: linear-gradient(#00cccc, #fcd700);
+    transform: scale(1.1);
+}
+.banana{
+    font-size: 60px;
+    font-family: "poppins-10";
+    background:  -webkit-linear-gradient(#00cccc, #fcd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    position: relative;
+    top: 60px;
+}
+
+.color{
+margin-left: 540px;
+   
+
+}
+.kala{
+   margin-left: 120px;
+   font-family: "poppins";
+   font-size: 60px;
+   
+}
+.box-2{
+    background-color: rgb(0, 217, 255);
+    width: 720px;
+    height: 280px;
+    margin-left: 420px;
+    margin-bottom: 10px;
+ display: flex;
+ animation: bounce 0.6s ease;
+ transition: all 0.3s ease;
+}
+.footer{
+    color: white;
+    font-size: 23px;
+    font-family: "poppins";  
+}
+.lamon{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.union{
+    color: white;
+    font-family: "poppins";
+    font-size: 30px;
+}
+.van,.union-10{
+    padding-top: 20px;
+    margin-left: 40px;
+}
+.pra{
+    display: flex;
+    background-color: rgb(0, 217, 255);
+    width: 382px;
+    height: 170px;
+    margin-left: 380px;
+    margin-bottom: 10px;
+    animation: bounce 0.6s ease;
+    transition: all 0.3s ease;
+}
+.pakistan{
+    padding-top: 20px;
+    margin-left: 30px;
+   
+}
+.chor{
+    margin-left: 0px;
+    font-family: "poppins";
+    font-size: 60px;
+}
+.jal{
+    font-size: 60px;
+    font-family: "poppins-10";
+    background:  -webkit-linear-gradient(#00cccc, #fcd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    position: relative;
+    top: 60px;
+}
+.course-10{
+    margin-left: 420px;
+}
+.con{
+    display: flex;
+}
+.mara{
+    margin-left: 30px;
+}
+
+.pal{
+    padding-top: 20px;
+    margin-left: 30px;
+
+}
+.laptop{
+    display: flex;
+   
+}
+.nawaz{
+    background-color: rgb(0, 217, 255);
+    animation: bounce 0.6s ease;
+    transition: all 0.3s ease;
+    margin-left: 24px;
+    width: 382px;
+    height: 170px;
+}
+
+.han{
+   padding-left: 18px;
+   border-radius: 10px;
+   width: 400px;
+   object-fit: cover;
+   height: 220px;
+}
+
+.family{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+
+.han-2{
+    width: 597px;
+    height: 370px;
+    border-radius: 10px;
+   padding-top: 145px;
+    margin-left: 18px
+}
+.han-3{
+    border-radius: 10px;
+    width: 819px;
+    height: 430px;
+    object-fit: cover;
+    position: relative;
+    bottom: 121px;
+    margin-left: 50px;
+   
+}
+input{
+  height: 30px;
+    width: 320px;
+padding-left: 10px;
+font-size: 17px;
+}
+.ceerti{
+    background-color: rgb(207, 207, 207);
+    margin-left: 600px;
+    width: 360px;
+    height: 440px;
+    margin-bottom: 0px;
+   border-radius: 10px;
+}
+h4{
+    font-size: 24px;
+    font-family: "poppins";
+
+}
+.wash{
+    font-family: "poppins";
+    font-size: 18px;
+}
+.margin{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.wash-10{
+    font-family: "poppins"; 
+    padding-top: 12px;
+    font-size: 18px;
+}
+.lala{
+ 
+    height: 70px;
+}
+.btn-90{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgb(0, 119, 0);
+    border: none;
+    border-radius: 7px;
+}
+input{
+   border: none;
+  
+}
+.display{
+    display: flex;
+
+}
+.han-4{
+    width: 290px;
+    height: 290px;
+    margin-left: 23px;
+ 
+    margin-top: 18px;
+}
+.han-5{
+    width: 290px;
+    height: 290px;
+    margin-left: 18px;
+ 
+    margin-top: 18px;
+}
+
+.top{
+    margin-left: 249px;
+    font-size: 39px;
+  position: relative;
+  top: 90px;
+  font-family: "poppins";
+  color: rgba(0, 123, 255, 0.907);
+}
+
+
+@keyframes scrollLoop {
+    0% {
+        transform: translate(0);
+      }
+      100% {
+        transform: translate(-11%);
+      }
+  }
+.insitute{
+    display: flex;
+    width: max-content;
+    animation: scrollLoop 2s linear infinite;
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: inline-block;
+
+}
+.i,.m,.n,.k,.w,.i,.p{
+    width: 165px;
+    margin-top: 90px;
+
+}
+
+.company:hover{
+    color: #fffb00;
+}
+a{
+    color: #fffb00;
+}
+a:hover{
+    color: #00cccc;
+}
+.name {
+    transition: transform 0.6s ease, filter 0.3s ease;
+  }
+.pra:hover{
+    transform: scale(0.93);
+}
+.box-2:hover{
+
+    transform: scale(0.93);
+}
+.nawaz:hover{
+    
+    transform: scale(0.93);
+}
+  .name:hover {
+    transform: scale(1.2);
+    filter: brightness(1.90);
+  }
+
+  .han:hover{
+    animation: bounce 0.6s ease;
+    transition: all 0.3s ease;
+}
+.han-2:hover{
+    animation: bounce 0.6s ease;
+    transition: all 0.3s ease;
+}
+.han-3:hover{
+    animation: bounce 0.6s ease;
+    transition: all 0.3s ease;
+}
+.han-4:hover{
+    animation: bounce 0.6s ease;
+    transition: all 0.3s ease;
+}
+.han-5:hover{
+    animation: bounce 0.6s ease;
+    transition: all 0.3s ease;
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }}
+    .ceerti:hover{
+       
+            box-shadow: 0 0 5px #26ff00, 0 0 40px #39ff14;
+    background-color: rgb(245, 255, 49);
+    }
+   .landi{
+    padding-left: 10px;
+   }
+   .name-0{
+    width: 199px;
+    margin-left: 60px;
+    margin-top: 20px;
+   }
+ .absolute{
+    display: flex;
+    align-items: center;
+ }
+ .job{
+    font-size: 20px;
+    margin-left: 300px;
+    color: green;
+    font-family: "poppins";
+ }
+ hr{
+    margin-top: 60px;
+ }
+ .dhaniya{
+    margin-left: 563px;
+    font-family: "poppins";
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+ 
+ }
+ .data
+ {
+    padding-top: 3px;
+ }
+ .akari{
+    display: flex;
+ }
+ .dhaniya-10{
+
+    margin-left: 290px;
+    font-family: "poppins";
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+ }
+ .name-0:hover {
+    transform: scale(1.2);
+  
+  }
+  .name-0 {
+    transition: transform 0.6s ease, filter 0.3s ease;
+  }
+  .mac{
+    font-family: "poppins";
+  
+    font-size: 20px;
+  }
+  .KHATAM{
+    background-color: #00cccc;
+    width: 1499px;
+    height: 40px;
+    margin-left: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
